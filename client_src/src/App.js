@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-// import { Link } from 'react-router-dom';
+import Main from './routes/Main';
+import NavBar from './components/Navbar';
+import { Link } from 'react-router-dom';
+// import Clock from './components/Clock';
 
-class App extends Component {
-	render() {
-		return (
-			<div>
-				{/* <header>
-					<i className="fas fa-bars" />
-					<br />
-					<i className="fab fa-facebook-square" />
-					<i className="fab fa-twitter-square" />
-				</header>
-				<div>Yoga</div> */}
-
-				<Button variant="contained" color="primary">
-					Hello World
-				</Button>
-			</div>
-		);
-	}
-}
+const App = () => (
+	<div>
+		<NavBar />
+		<div className="container">
+			<Main />
+		</div>
+		<div className="fixed-action-btn">
+			<Link to="/members/add" className="btn-floating btn-large red">
+				<i className="fa fa-plus" />
+			</Link>
+			{/* <Clock /> */}
+		</div>
+	</div>
+);
 
 export default App;
