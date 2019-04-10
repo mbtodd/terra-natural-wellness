@@ -5,36 +5,30 @@ class NavBar extends Component {
 	render() {
 		return (
 			<div>
-				<nav className="blue darken-3">
-					<div className="nav-wrapper">
-						<a href="./About" className="brand-logo center">
-							Yoga
+				<nav className="container">
+					<div className="row">
+						<a href="/#" className="col center">
+							Home
 						</a>
-						<a href="/#" data-activates="main-menu" className="button-collapse show-on-large">
-							<i className="fa fa-bars" />
+						{/* <a href="./About" className="col center">
+								About
+							</a> */}
+						<Link to="/about" className="col center">
+							<i className="fas fa-pray" /> About
+						</Link>
+
+						<a href="./Schedule-Fees" className="col center">
+							Schedule / Fees
 						</a>
-						<ul className="right hide-on-small-only">
-							<li>
-								<Link to="/">
-									<i className="fa fa-users" /> Meetups
-								</Link>
-							</li>
-						</ul>
-						<ul className="side-nav" id="main-menu">
-							<li>
-								<Link to="/">
-									<i className="fa fa-users" /> Meetups
-								</Link>
-							</li>
-							<li>
-								<Link to="/meetups/add">
-									<i className="fa fa-plus" /> Add Meetup
-								</Link>
-								<Link to="/about">
-									<i className="fa fa-question-circle" /> About
-								</Link>
-							</li>
-						</ul>
+						<Link to="/Hella" className="col center">
+							<i className="fas fa-pray" /> About Hella
+						</Link>
+						<a href="./Contact" className="col center">
+							Contact
+						</a>
+						<Link to="./Blog" className="col center">
+							<i className="fas fa-blog">{/* <a className="bar-text">Blog</a> */}</i>
+						</Link>
 					</div>
 				</nav>
 			</div>
