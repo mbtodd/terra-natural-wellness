@@ -1,10 +1,10 @@
 .parallax {
 	/* The image used */
 	/* background-image: url("./assests/giphy.gif"); */
-	background-image: url("./assests/webp_images/asset 0.webp");
+	background-image: url("./assests/img/webimages/asset 0.webp");
 
 	/* Set a specific height */
-	min-height: 5000px;
+	min-height: 1300px;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -21,4 +21,46 @@
 .bar-text {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-style: inherit;
+}
+
+.footer {
+	height: 10em;
+	background-color: #dbb89a;
+	padding: 50px;
+	border-top-color: red;
+}
+
+.about-body {
+	padding: 2px;
+	margin: 30px;
+	width: 80em;
+}
+.about-text {
+	background-color: rgb(210, 226, 136);
+	scroll-padding: 15em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 14px;
+}
+
+.logo-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	/* width: 50%; */
+	width: 35em;
+
+	/* margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px; */
+}
+
+.bar-graphic {
+}
+.sandbar {
+	/* margin: auto; */
+	/* margin-left: 10em; */
+	background-color: #dbb89a;
+	width: 100%;
 }

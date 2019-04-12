@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class NavBar extends Component {
+export default class NavBar extends Component {
 	render() {
 		return (
 			<div>
-				<nav className="container">
+				<nav className="container rounded ">
 					<div className="row">
 						<a href="/#" className="col center">
 							Home
@@ -35,5 +35,3 @@ class NavBar extends Component {
 		);
 	}
 }
-
-export default NavBar;

@@ -26,9 +26,8 @@ class Hella extends Component {
 					and in life.
 				</p>
 
-				<p>
-					<h6>Testimonials:</h6>
-				</p>
+				<h6>Testimonials:</h6>
+
 				<p>
 					Hella, Your class is more of a shared practice with you as our mentor than a group of people who work out
 					together. Many of my other yoga teachers and classes rush through the poses-focusing on the physical side of
@@ -36,10 +35,7 @@ class Hella extends Component {
 					me where I am trying to go. There is no pressure to move faster than I am ready for but you give a nudge if I
 					become complacent in a pose. I feel you are more of a mentor than a teacher.
 				</p>
-
-				<p>
-					<h6>Joys Sue Black</h6>
-				</p>
+				<h6>Joys Sue Black</h6>
 				<p>
 					Since taking yoga classes with Hella, I have learned how to manage stress, not only in class but through all
 					areas of my life. As a working-mother of three, I truly feel like this is something for me that makes me a
@@ -47,9 +43,8 @@ class Hella extends Component {
 					toned areas that I thought were a lost cause!
 				</p>
 
-				<p>
-					<h6>Jennifer Todd</h6>
-				</p>
+				<h6>Jennifer Todd</h6>
+
 				<br />
 			</div>
 		);

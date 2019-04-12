@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Main from './routes/Main';
 import NavBar from './components/Navbar';
+import Logo from './components/Logo';
+import Footer from './components/Footer';
 import { Link } from 'react-router-dom';
-
-// import Clock from './components/Clock';
 
 const App = () => (
 	<div>
@@ -14,6 +14,9 @@ const App = () => (
 					<i className="fa fa-bars" />
 				</a>
 			</NavBar>
+			<div className="logo">
+				<Logo />
+			</div>
 			<div className="container">
 				<Main />
 			</div>
@@ -21,9 +24,9 @@ const App = () => (
 				<Link to="/members/add" className="btn-floating btn-large red">
 					<i className="fa fa-plus" />
 				</Link>
-				{/* <Clock /> */}
 			</div>
 		</div>
+		<Footer />
 	</div>
 );
 
