@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Badge } from 'react-bootstrap';
 
 export default class NavBar extends Component {
 	render() {
 		return (
 			<div>
-				<nav className="container rounded ">
+				{/* <Badge pill variant="light" className="pill"> */}
+				<nav className="container">
 					<div className="row">
 						<a href="/#" className="col center">
 							Home
@@ -31,6 +33,7 @@ export default class NavBar extends Component {
 						</Link>
 					</div>
 				</nav>
+				{/* </Badge> */}
 			</div>
 		);
 	}
