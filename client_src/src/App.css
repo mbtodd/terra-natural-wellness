@@ -31,6 +31,7 @@
 }
 
 .about-body {
+	font-family: 'Cookie', cursive;
 	padding: 2px;
 	margin: 30px;
 	width: 80em;
@@ -68,4 +69,5 @@
 .hella-text {
 	font-family: 'Cookie', cursive;
 	font-size: 18px;
+	background-color: #7a644e;
 }
