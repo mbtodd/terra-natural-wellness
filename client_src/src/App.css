@@ -38,7 +38,7 @@
 .about-text {
 	background-color: rgb(210, 226, 136);
 	scroll-padding: 15em;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Cookie', cursive;
 	font-size: 14px;
 }
 
@@ -63,4 +63,9 @@
 	/* margin-left: 10em; */
 	background-color: #dbb89a;
 	width: 100%;
+}
+
+.hella-text {
+	font-family: 'Cookie', cursive;
+	font-size: 18px;
 }
