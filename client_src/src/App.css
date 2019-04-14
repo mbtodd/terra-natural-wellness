@@ -31,6 +31,7 @@
 }
 
 .about-body {
+	font-family: 'Cookie', cursive;
 	padding: 2px;
 	margin: 30px;
 	width: 80em;
@@ -38,7 +39,7 @@
 .about-text {
 	background-color: rgb(210, 226, 136);
 	scroll-padding: 15em;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Cookie', cursive;
 	font-size: 14px;
 }
 
@@ -71,4 +72,10 @@
 	margin-top: 25px;
 	background-color: #eee8d8;
 	font-size: 35px;
+}
+
+.hella-text {
+	font-family: 'Cookie', cursive;
+	font-size: 18px;
+	background-color: #7a644e;
 }
