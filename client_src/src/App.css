@@ -64,3 +64,11 @@
 	background-color: #dbb89a;
 	width: 100%;
 }
+
+.pill {
+	padding: 100em;
+	width: 50em;
+	margin-top: 25px;
+	background-color: #eee8d8;
+	font-size: 35px;
+}
